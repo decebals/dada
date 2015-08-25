@@ -9,6 +9,11 @@ Tiny Generic Dao in Java
 [![Issue Stats](http://www.issuestats.com/github/decebals/dada/badge/pr?style=flat)](http://www.issuestats.com/github/decebals/dada)
 
 
-It's an open source (Apache License) tiny generic dao in Java, with minimal dependencies and a quick learning curve.
-The goal of this project is to create a tiny generic dao in Java with a micro core and multiple independent implementations
-(inmemory, csv, hibernate, jpa, iciql).
+It's an open source (Apache License) tiny generic dao in Java, with minimal dependencies and a quick learning curve.  
+The goal of this project is to create a tiny generic dao in Java with a micro core and multiple independent implementations (inmemory, csv, hibernate, jpa, iciql).  
+
+This project could be in time a Spring Data without Spring. :smile:
+
+The project is an early stage but it's functional. I will try to add more documentation, javadoc, unit tests. 
+
+Any contribution is very welcome. I hope to create a comunity arround this project.
