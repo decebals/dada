@@ -11,7 +11,7 @@
     <groupId>ro.fortsoft.dada</groupId>
     <artifactId>dada-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.0</version>
     <name>Dada Parent</name>
     <description>Tiny generic dao in java</description>
 
@@ -27,7 +27,7 @@
         <connection>scm:git:https://github.com/decebals/dada.git</connection>
         <developerConnection>scm:git:https://github.com/decebals/dada.git</developerConnection>
         <url>git@github.com/decebals/dada.git</url>
-        <tag>HEAD</tag>
+        <tag>release-0.1.0</tag>
     </scm>
 
     <distributionManagement>
