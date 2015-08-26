@@ -1,7 +1,7 @@
 Tiny Generic Dao in Java
 =====================
 [![Travis CI Build Status](https://travis-ci.org/decebals/dada.png)](https://travis-ci.org/decebals/dada)
-[![Maven Central](http://img.shields.io/maven-central/v/ro.fortsoft.dada/dada.svg)](http://search.maven.org/#search|ga|1|dada)
+[![Maven Central](http://img.shields.io/maven-central/v/ro.fortsoft.dada/dada-core.svg)](http://search.maven.org/#search|ga|1|dada)
 
 It's an open source (Apache License) tiny generic dao in Java, with minimal dependencies(only slf4j-api for dada-core) and a quick learning curve.
 The goal of this project is to create a tiny generic dao in Java with a micro core and multiple independent implementations (inmemory, csv, hibernate, jpa, iciql).
