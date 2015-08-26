@@ -13,6 +13,15 @@
     <version>0.1.0-SNAPSHOT</version>
     <name>Dada Iciql</name>
 
+    <repositories>
+        <repository>
+            <id>com.iciql</id>
+            <name>Iciql</name>
+            <url>http://gitblit.github.io/iciql/maven/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+
     <properties>
         <iciql.version>1.6.5</iciql.version>
     </properties>
