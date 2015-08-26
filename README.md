@@ -2,7 +2,9 @@ Tiny Generic Dao in Java
 =====================
 
 [![Travis CI Build Status](https://travis-ci.org/decebals/dada.png)](https://travis-ci.org/decebals/dada)
-[![Coverage Status](https://coveralls.io/repos/decebals/dada/badge.svg?branch=master&service=github)](https://coveralls.io/github/decebals/dada?branch=master)
+<!--
+[![Coverage Status](https://coveralls.io/repos/decebals/dada/badge.svg?branch=master&service=github)](https://coveralls.io/github/decebals/dada?branch=master
+-->
 [![Maven Central](http://img.shields.io/maven-central/v/ro.fortsoft.dada/dada.svg)](http://search.maven.org/#search|ga|1|ro.fortsoft.dada)
 
 [![Issue Stats](http://www.issuestats.com/github/decebals/dada/badge/issue?style=flat)](http://www.issuestats.com/github/decebals/dada)
