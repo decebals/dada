@@ -22,7 +22,7 @@ Modules
 -------------------
 Practically Dada is a microframework and the aim is to keep the core simple but extensible. I try to create a little ecosystem (extensions/modules) based on this core with the help of the community.
 For now are available these modules:
-- [csv]
+- csv (very useful for tests and fast prototypes)
 - [iciql](http://iciql.com)
 
 Maybe the modules for JPA, Hibernate are the next implementations.
@@ -191,4 +191,4 @@ And constructed with the following guidelines:
 * New additions without breaking backward compatibility bumps the minor
 * Bug fixes and misc changes bump the patch
 
-For more information on SemVer, please visit http://semver.org/.
+For more information on SemVer, please visit http://semver.org.
