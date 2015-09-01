@@ -55,7 +55,7 @@ public class CsvEntityDao<T extends Entity> extends CsvGenericDao<T, Long> imple
     }
 
     @Override
-    public Long nextId() {
+    public Long getNextId() {
         return nextId.incrementAndGet();
     }
 

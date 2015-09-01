@@ -25,12 +25,15 @@ public class InMemoryEntityDao<T extends Entity> extends InMemoryGenericDao<T, L
 
     private AtomicLong nextId = new AtomicLong();
 
+    public InMemoryEntityDao() {
+    }
+
     public InMemoryEntityDao(List<T> entities) {
-        super(entities);
+        addAll(entities);
     }
 
     @Override
-    public Long nextId() {
+    public Long getNextId() {
         return nextId.incrementAndGet();
     }
 

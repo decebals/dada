@@ -34,14 +34,7 @@ public abstract class InMemoryGenericDao<T extends Identifiable<ID>, ID extends 
 
     protected List<T> entities = new CopyOnWriteArrayList<>();
 
-    public InMemoryGenericDao() {
-    }
-
-    public InMemoryGenericDao(List<T> entities) {
-        addAll(entities);
-    }
-
-    public abstract ID nextId();
+    public abstract ID getNextId();
 
     @Override
     public T findById(ID id) {
@@ -104,7 +97,7 @@ public abstract class InMemoryGenericDao<T extends Identifiable<ID>, ID extends 
             }
         } else {
             // new
-            entity.setId(nextId());
+            entity.setId(getNextId());
             entities.add(entity);
         }
 
@@ -134,7 +127,7 @@ public abstract class InMemoryGenericDao<T extends Identifiable<ID>, ID extends 
     public void addAll(List<T> entities) {
         for (T entity : entities) {
             if (entity.getId() == null) {
-                entity.setId(nextId());
+                entity.setId(getNextId());
             }
             this.entities.add(entity);
         }
