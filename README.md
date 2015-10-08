@@ -173,7 +173,7 @@ After above steps a folder _dada/target_ is created and all goodies are in that 
 
 Versioning
 ------------
-PF4J will be maintained under the Semantic Versioning guidelines as much as possible.
+Dada will be maintained under the Semantic Versioning guidelines as much as possible.
 
 Releases will be numbered with the follow format:
 
