@@ -13,17 +13,9 @@
     <version>0.2.0-SNAPSHOT</version>
     <name>Dada Iciql</name>
 
-    <repositories>
-        <repository>
-            <id>com.iciql</id>
-            <name>Iciql</name>
-            <url>http://gitblit.github.io/iciql/maven/</url>
-            <layout>default</layout>
-        </repository>
-    </repositories>
 
     <properties>
-        <iciql.version>1.6.5</iciql.version>
+        <iciql.version>2.1.1</iciql.version>
     </properties>
 
     <dependencies>
@@ -34,7 +26,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.iciql</groupId>
+            <groupId>com.gitblit.iciql</groupId>
             <artifactId>iciql</artifactId>
             <version>${iciql.version}</version>
         </dependency>
