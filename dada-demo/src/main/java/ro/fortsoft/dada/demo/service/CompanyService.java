@@ -23,6 +23,6 @@ import ro.fortsoft.dada.core.service.EntityService;
  */
 public interface CompanyService extends EntityService<Company> {
 
-    public Company findByFiscalCode(String fiscalCode);
+    Company findByFiscalCode(String fiscalCode);
 
 }

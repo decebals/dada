@@ -22,6 +22,6 @@ import com.iciql.Db;
  */
 public interface IciqlDbFactory {
 
-    public Db getDb();
+    Db getDb();
 
 }

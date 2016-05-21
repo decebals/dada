@@ -29,13 +29,13 @@ public interface Identifiable<T extends Serializable> {
      *
      * @return
      */
-    public T getId();
+    T getId();
 
     /**
      * Sets the identifier.
      *
      * @param id
      */
-    public void setId(T id);
+    void setId(T id);
 
 }

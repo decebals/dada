@@ -23,6 +23,6 @@ import ro.fortsoft.dada.demo.entity.Company;
  */
 public interface CompanyDao extends EntityDao<Company> {
 
-    public Company findByFiscalCode(String fiscalCode);
+    Company findByFiscalCode(String fiscalCode);
 
 }

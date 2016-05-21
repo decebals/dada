@@ -31,16 +31,16 @@ public interface GenericDao<T extends Identifiable<ID>, ID extends Serializable>
      * @param id
      * @return
      */
-    public T findById(ID id);
+    T findById(ID id);
 
-    public List<T> findByExample(T example);
+    List<T> findByExample(T example);
 
     /**
      * Returns all the {@link Identifiable} entities.
      *
      * @return
      */
-    public List<T> findAll();
+    List<T> findAll();
 
     /**
      * Stores the {@link Identifiable} entity.
@@ -48,19 +48,19 @@ public interface GenericDao<T extends Identifiable<ID>, ID extends Serializable>
      * @param entity
      * @return
      */
-    public T save(T entity);
+    T save(T entity);
 
     /**
      * Removes the {@link Identifiable} entity.
      *
      * @param id
      */
-    public boolean deleteById(ID id);
+    boolean deleteById(ID id);
 
     /**
      * Returns the total number of entities.
      * @return
      */
-    public long count();
+    long count();
 
 }

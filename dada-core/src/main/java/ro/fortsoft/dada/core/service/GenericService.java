@@ -25,16 +25,16 @@ import java.util.List;
  */
 public interface GenericService<T extends Identifiable<ID>, ID extends Serializable> {
 
-    public T findById(ID id);
+    T findById(ID id);
 
-    public List<T> findByExample(T example);
+    List<T> findByExample(T example);
 
-    public List<T> findAll();
+    List<T> findAll();
 
-    public boolean deleteById(ID id);
+    boolean deleteById(ID id);
 
-    public T save(T entity);
+    T save(T entity);
 
-    public long count();
+    long count();
 
 }
