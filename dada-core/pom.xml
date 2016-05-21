@@ -4,13 +4,13 @@
     <parent>
         <groupId>ro.fortsoft.dada</groupId>
         <artifactId>dada-parent</artifactId>
-        <version>0.2.0-SNAPSHOT</version>
+        <version>0.1.1</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
     <artifactId>dada-core</artifactId>
-    <version>0.2.0-SNAPSHOT</version>
+    <version>0.1.1</version>
     <name>Dada Core</name>
 
     <dependencies>
